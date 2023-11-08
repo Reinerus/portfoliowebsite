@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    list-style-type: none;
+    text-align: right;
+    padding-right: 160px;
+    background-color: honeydew;
+    width: 100%;
+    height: 7%; 
+    position: fixed;
+   
+}
+
+
+.nav li {
+    display: inline-block;
+    font-size: 18px;
+    padding: 5px;
+    text-transform: uppercase;
+    font-weight: 900;
+
+}
+
+.nav li a {
+    color: rgb(175, 77, 77);
+    text-decoration: none;
+    font-family: verdana, serif;
+    margin: 12px;
+}
+.nav li a:hover {
+    color: rgb(163, 73, 73);
+}
+
+.section1 {
+    height: 840px;
+    width: auto;
+    box-sizing: inherit;
+    background-color: honeydew;
+    background-image: url("images/redisrael.png");
+    background-size:contain;
+    background-position: right;
+    background-repeat: no-repeat;
+
+}
+
+.hello {
+padding-top: 500px
+
+}
+.hello h2 {
+
+    font-size: 60px;
+    width: fit-content;
+    padding: 10px;
+    color: rgb(175, 77, 77);
+
+}
+
+.headcontact p{
+    display: inline-block;
+    font-size: 40px;
+    background-color: white;
+    color: white;
+    margin: 10px;
+    padding: 5px;
+    background-color: rgb(175, 77, 77);
+    border: 1px solid transparent;
+    border-radius: 30%;
+    width: 25px;
+    width: fit-content;
+}
+.headcontact p:hover{
+    background-color: rgb(163, 73, 73);
+    cursor: pointer;
+}
+
+.sectionprog {
+    padding-top: 10px;
+    text-align: center;
+    margin: auto;
+    border-radius: 30px;
+    width: fit-content;
+    border: 2px solid rgb(175, 77, 77);
+
+}
+.sectionprog th {
+    padding: 4px;
+    font-size:60px;
+}
+.sectionprog th:nth-child(2){
+    border-left: 2px solid rgb(175, 77, 77);
+    border-right: 2px solid rgb(175, 77, 77);
+}
+
+body {
+    background-color: honeydew;
+}
+.section3 h1{
+    padding-top: 40px;
+    padding-bottom: 20px;
+    margin-bottom: 130px;
+    text-align: center;
+    font-size:60px;
+    color:rgb(175, 77, 77);
+
+}
+
+.section3 table {
+    padding-top: 200px;
+    margin: auto;
+}
+
+.section3 h2{
+    padding-left: 50px;
+    font-size: 30px;
+    color: rgb(175, 77, 77);
+}
+.section3 h3{
+    padding-left: 50px;
+    font-size: 15px;
+    color: rgb(175, 77, 77)
+}
+.section3 p{
+    padding-left: 50px;
+    font-size: 25px;
+
+}
+
+.section3 img{
+    margin-top: 15px;
+    border: 3px solid rgb(230, 230, 230);
+}
+
+.section4{
+    margin-top: 150px;
+}
+
+.bar1 {
+    padding-left: 50px;
+}
+
+.bar1-1 {
+    background: rgb(175, 77, 77);
+    height: 50px;
+    width: 600px;
+    padding: 3px;
+
+}
+.bar1-1:after {
+    content: "HTML - EFFICIENCY";
+    color: rgb(163, 73, 73);
+    font-size: 35px;
+    display: block;
+    background: honeydew;
+    width: 80%;
+    height: 100%;
+}
+
+.bar2 {
+    padding-left: 100px;
+    padding-top: 20px;
+}
+
+.bar2-1 {
+    background: rgb(175, 77, 77);
+    height: 50px;
+    width: 600px;
+    padding: 3px;
+
+}
+.bar2-1:after {
+    content: "CSS - Talented";
+    color: rgb(163, 73, 73);
+    font-size: 35px;
+    display: block;
+    background: honeydew;
+    width: 90%;
+    height: 100%;
+
+}
+
+.bar3 {
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+.bar3-1 {
+    background: rgb(175, 77, 77);
+    height: 50px;
+    width: 600px;
+    padding: 3px;
+
+}
+.bar3-1:after {
+    content: "Javascript - ASS";
+    color: rgb(163, 73, 73);
+    font-size: 35px;
+    display: block;
+    background: honeydew;
+    width: 40%;
+    height: 100%;
+
+}
+
+
+
+
+.projects div {
+    margin: auto;
+    display: inline-block;
+    padding: 60px;
+    content: "";
+    height: 400px;
+    width: 400px;
+    background-color: rgb(175, 77, 77);
+}
+
+
+.contactop {
+    text-align: center;
+    color: rgb(175, 77, 77);
+    font-size: 25px;
+}
+
+.cform {
+    background-color: rgb(236, 236, 236);
+    margin: 100px;
+    padding: 25px;
+    border: 1px solid black;
+    border-radius: 20px;
+    height: 250px
+}
+
+.cform div {
+    padding-top:10px ;
+}
+#fname{
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 20px;
+    display: inline-flexbox ;
+}
+
+#lname {
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 20px;
+    display: inline-block;
+}
+#email {
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+#email{
+    margin-left: 30px;
+
+}
+.subject input[type=text], select, textarea {
+    width: 100%;
+    height: 80px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
